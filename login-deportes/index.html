@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Deportes</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="darkmode-toggle">
+        <input type="checkbox" id="darkmode-switch">
+        <label for="darkmode-switch" title="Modo oscuro/claro">
+            <i class="fa fa-moon"></i>
+            <i class="fa fa-sun"></i>
+        </label>
+    </div>
+    <div class="login-bg">
+        <div class="login-container" id="login-container">
+            <div class="login-avatar">
+                <i class="fa fa-user-circle"></i>
+            </div>
+            <h2 class="login-title">Member Login</h2>
+            <form id="login-form">
+                <div class="input-group">
+                    <span class="input-icon"><i class="fa fa-envelope"></i></span>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-group password-group">
+                    <span class="input-icon"><i class="fa fa-lock"></i></span>
+                    <input type="password" name="pass" placeholder="Password" required id="login-password">
+                    <span class="toggle-password" data-target="login-password"><i class="fa fa-eye"></i></span>
+                </div>
+                <div class="login-options">
+                    <label><input type="checkbox"> Remember me</label>
+                    <a href="#" class="forgot">Forgot Password?</a>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+                <div class="register-link">
+                    Not a member? <a href="#" id="show-register">Create an account</a>
+                </div>
+            </form>
+            <form id="register-form" style="display:none;">
+                <div class="input-group">
+                    <span class="input-icon"><i class="fa fa-user"></i></span>
+                    <input type="text" name="newuser" placeholder="Name" required>
+                </div>
+                <div class="input-group">
+                    <span class="input-icon"><i class="fa fa-envelope"></i></span>
+                    <input type="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="input-group password-group">
+                    <span class="input-icon"><i class="fa fa-lock"></i></span>
+                    <input type="password" name="newpass" placeholder="Password" required id="register-password">
+                    <span class="toggle-password" data-target="register-password"><i class="fa fa-eye"></i></span>
+                </div>
+                <button type="submit" class="login-btn">Register</button>
+                <div class="register-link">
+                    Already have an account? <a href="#" id="show-login">Login</a>
+                </div>
+            </form>
+            <div id="message"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
