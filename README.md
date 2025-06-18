@@ -23,11 +23,10 @@ login-deportes es una aplicación web sencilla que permite a los usuarios inicia
 Abre el archivo `index.html` y verás un formulario de inicio de sesión. Ingresa un usuario y contraseña para probar la funcionalidad.
 
 ## Autor
-Proyecto realizado por [Tu Nombre] con ayuda de GitHub Copilot.
+Proyecto realizado por [Marylin Alvarado].
 
 ---
 
-¿Quieres ver buenas prácticas de HTML y CSS? Consulta la sección de recursos y recomendaciones al final del archivo.
 
 ## Recursos y buenas prácticas (opcional)
 - [MDN Web Docs - HTML](https://developer.mozilla.org/es/docs/Web/HTML)
